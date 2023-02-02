@@ -23,7 +23,7 @@ public class Zadanie_7 {
         }
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.print(matrix[i][j] + " ");
+                System.out.print(String.format("%3.0f", (double)matrix[i][j]) + " ");
             }
             System.out.println("");
         }
